@@ -75,8 +75,8 @@ function GameScreen({ endGame }) {
           imageRef.current,
           alienRef.current.x - alienRef.current.radius,
           alienRef.current.y - alienRef.current.radius,
-          alienRef.current.radius * 2,
-          alienRef.current.radius * 2
+          alienRef.current.radius * 5,
+          alienRef.current.radius * 5
         );
       }
     };
